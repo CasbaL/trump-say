@@ -9,7 +9,7 @@ Just Trump's words
 ```html
 <script src="https://cdn.jsdelivr.net/gh/CasbaL/trump-say@0.01/trump-say.js"></script>
 ```
-
+## Or
 2. 直接复制下面代码,在任意页面打开控制台粘贴执行
 
 ```js
