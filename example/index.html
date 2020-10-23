@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MAGA</title>
-</head>
-<body>
-  click the window
-  <script src="../trump-say.js"></script>
-</body>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGA</title>
+  </head>
+
+  <body>
+    click the window
+    <!-- <script src="https://cdn.jsdelivr.net/gh/CasbaL/trump-say@0.01/trump-say.js"></script> -->
+  </body>
+  <script>
+    function append() {
+      const sc = document.createElement("script")
+      sc.src = 'https://cdn.jsdelivr.net/gh/CasbaL/trump-say@0.01/trump-say.js'
+      document.body.appendChild(sc)
+    };
+    append()
+  </script>
+
 </html>
